@@ -1,18 +1,19 @@
 :root {
 
-  --color-0: #ffffff; /#8fd6e5/
+  --color-0: #8fd6e5; /#8fd6e5/
 
 
 
-  --color-1: #cceecc; /#8fd6e5/
+  --color-1: #8fd6e5; /#8fd6e5/
 
   --color-2: #e3f1af; /#8fd6e5/
+  --color-2: #8fd6e5; /#8fd6e5/
 
-  --color-3: #4bc84b; /#8fd6e5/
+  --color-3: #8fd6e5; /#8fd6e5/
 
-  --color-4: #71da35; /#8fd6e5/
+  --color-4: #8fd6e5; /#8fd6e5/
 
-  --color-5: #cff1af; /#8fd6e5/
+  --color-5: #8fd6e5; /#8fd6e5/
 
 }
 
@@ -25,5 +26,18 @@ header #header-bar > .row {
     background: -webkit-linear-gradient(45deg, var(--color-3) 0%,var(--color-5) 11%,var(--color-2) 100%);
 
     border-bottom: 2px solid var(--color-1); border-right: 2px solid var(--color-1) 
+@font-face { font-family: 'Handon3gyeopsal600g'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+
+body
+ {
+  letter-spacing: -0.05em !important;
+  background: url(https://cdn.discordapp.com/attachments/647738151468531724/680844279286857813/cloud4.png) 50%;
+  /*background: transparent;*/
+  font-family: 'GmarketSansMedium', sans-serif;
+}
 
 }
